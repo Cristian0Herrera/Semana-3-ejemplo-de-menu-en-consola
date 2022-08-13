@@ -8,5 +8,10 @@ namespace Semana_3_ejemplo_de_menu_en_consola
 {
     class Ejemplo_while
     {
+        public static void estructura_while()
+        {
+            Console.WriteLine("while externo");
+        }
+
     }
 }
