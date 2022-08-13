@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Semana_3_ejemplo_de_menu_en_consola
 {
-    class Menu
+    public class Menu
     {
+        public static void Menu_principal()
+        {
+            System.Console.WriteLine("Opciones de Menu");
+        }
     }
 }
