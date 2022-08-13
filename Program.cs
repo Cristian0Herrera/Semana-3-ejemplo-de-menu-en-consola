@@ -55,7 +55,39 @@ namespace Semana_3_ejemplo_de_menu_en_consola
             seleccion = Console.ReadLine();
             seleccionInt = Int32.Parse(seleccion);
 
-          
+            switch (seleccionInt)
+            {
+                case 1:
+
+                    programa_if();
+
+                    break;
+
+                case 2:
+
+                    programa_switch();
+                    break;
+
+                case 3:
+
+                    programa_for();
+                    break;
+
+                case 4:
+
+                    programa_while();
+                    break;
+                case 5:
+
+                    programa_dowhile();
+
+                    break;
+
+                default:
+                    Console.WriteLine("¡El formato ingresado es invalido!");
+                    break;
+
+            }
 
         }
 
